@@ -7,7 +7,7 @@ dir_name = ['roses', 'sunflowers', 'daisies']
 max_num = 1
 min_size = (200, 200) # minimum image size
 max_size = (1000, 1000) # maximum image size\
-main_folder = "downloads"
+main_folder = "flowers"
 
 def download_images():
     for kw, dn in zip(keywords, dir_name):
